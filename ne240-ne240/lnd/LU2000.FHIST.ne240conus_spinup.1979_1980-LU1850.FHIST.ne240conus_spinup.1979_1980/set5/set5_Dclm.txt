@@ -1,0 +1,58 @@
+DIAG SET 5: CLM ANNUAL MEANS OVER LAND - DIFFERENCE (case1 - case2)
+ 
+TEST CASE (case1):      LU2000_ne240-ne240  (yrs 1979-1980)
+ 
+REFERENCE CASE (case2): LU1850_ne240-ne240  (yrs 1979-1980)
+ 
+DIFFERENCE:            (LU2000_ne240-ne240) - (LU1850_ne240-ne240)
+ 
+Variable                                                              case1-case2
+ 
+TSA(K) 2m air temperature                                                  0.146
+PREC(mm/d) ppt: rain+snow                                                 -0.014
+RAIN(mm/d) atmospheric rain                                               -0.014
+SNOW(mm/d) atmospheric snow                                               -0.001
+SNOWDP(m) snow height                                                      0.001
+FSNO(unitless) fraction of ground covered by snow                         -0.002
+H2OSNO(mm) total snow water equiv (SNOWICE + SNOWLIQ)                     -0.014
+VBSA(% reflected) visible black-sky albedo                                 0.066
+NBSA(% reflected) near-IR black-sky albedo                                 0.023
+VWSA(% reflected) visible white-sky albedo                                 0.007
+NWSA(% reflected) near-IR white-sky albedo                                -0.051
+RNET(W/m^2) net radiation:fsa-fira                                        -0.309
+LHEAT(W/m^2) latent heat:FCTR+FCEV+FGEV                                   -0.353
+FSH(W/m^2) sensible heat                                                   0.039
+FSH_TO_COUPLER(W/m^2) sensible heat sent to coupler                        0.037
+FSH_PRECIP_CONVERSION(W/m^2) SHF from conv of rain/snow atm forcing       -0.002
+FSH_RUNOFF_ICE_TO_LIQ(W/m^2) SHF from conv of ice runoff to liquid        -0.000
+CPL_ENERGY_BAL(W/m2) Coupler Energy Balance (Land Area)                    0.029
+FSDS(W/m^2) atmospheric incident solar radiation                           0.048
+FSA(W/m^2) absorbed solar radiation                                       -0.063
+FLDS(W/m^2) atmospheric longwave radiation                                 0.707
+FIRE(W/m^2) emitted infrared (longwave) radiation                          0.954
+FCTR(W/m^2) canopy transpiration                                          -0.685
+FCEV(W/m^2) canopy evaporation                                            -0.459
+FGEV(W/m^2) ground evaporation                                             0.791
+FGR(W/m^2) heat flux into snow/soil (includes snow melt)                   0.005
+FSM(W/m^2) snow melt heat flux                                            -0.016
+TLAI(m2/m2) total one-sided leaf area index                               -0.123
+TSAI(m2/m2) total one-sided stem area index                               -0.018
+LAISUN(m^2/m^2) Sunlit Projected Leaf Area Index                          -0.008
+LAISHA(m^2/m^2) Shaded Projected Leaf Area Index                          -0.113
+FPSN(PgC/y) photosynthesis                                                -2.929
+ET(mm/d) Evapotranspiration                                             -999.000
+QOVER(mm/d) surface runoff                                                 0.007
+QIRRIG(mm/d) water added through irrig                                     0.013
+QDRAI(mm/d) sub-surface drainage                                           0.005
+QRGWL(mm/d) surface runoff at glaciers, wetlands, lakes                   -0.002
+WA(mm) water in the unconfined aquifer                                     0.000
+ZWT(m) water table depth                                                  -0.022
+TWS(mm) total water storage                                               -7.654
+VOLR(m3) river channel total water storage                        -146781760.000
+QCHARGE(mm/d) aquifer recharge rate                                        0.000
+FCOV(unitless [0-1]) fractional area with water table at surface           0.001
+CO2_PPMV(ppmv) CO2 concentration                                           0.000
+DSTDEP(Pg/y) total dust deposition (dry+wet) from atmosphere               0.230
+DSTFLXT(Pg/y) total surface dust emission                                  4.258
+OCDEP(Pg/y) total OC deposition (dry+wet) from atmosphere                 -0.001
+BCDEP(Pg/y) total BC deposition (dry+wet) from atmosphere                 -0.000
